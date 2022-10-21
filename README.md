@@ -2,6 +2,8 @@
 
 A new Flutter project.
 
+' lib/firebase_options.dart '(api key) is ignored 
+
 ## Initial Setting
 * 1. CLI 설치 및 로그인 :: ~$ curl -sL https://firebase.tools | bash
 * 2. CLI 로그인 :: ~$ firebase login

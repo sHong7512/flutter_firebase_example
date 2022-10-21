@@ -30,7 +30,7 @@ void main() async {
   runApp(
     MaterialApp(
       navigatorObservers: [
-        /// 화면이 변경되었을떄 analytics 이벤트를 받을 수 있음
+        /// 화면이 변경되었을때 analytics 이벤트를 받을 수 있음
         FirebaseAnalyticsObserver(analytics: analytics),
       ],
       home: HomeScreen(),
